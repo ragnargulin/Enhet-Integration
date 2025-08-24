@@ -1,5 +1,5 @@
-// src/components/CounterButton.tsx
 import React from "react";
+
 
 interface CounterButtonProps {
   onClick: () => void;
