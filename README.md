@@ -1,28 +1,19 @@
-## Inlämning 1 - Enhet & Integration 
+# Kodbas för Enhets- och integrationstestning av React komponenter.
 
-I den här laborationen ska du individuellt skapa en liten webbapplikation (minst 2 komponenter). 
+## Installation
 
-En komponent ska enhetstestas medan integrationen mellan komponenterna (dvs props) ska integrationstestas. 
+Kör `npm install` för att installera alla paket.
 
-Vad du skapar för typ av applikation är valfritt, rekommendationen är att du skapar en React Vite App men vill du utforska andra ramverk så går det också bra.InlämningFör att bli godkänd på den här uppgiften MÅSTE du använda GIT och GitHub. Inlämningen sker som vanligt via läroplattformen. 
+## Utveckling
 
-I din projektmapp ska det finnas (utöver all kod) en README.md fil. Den ska innehålla en titel, beskrivning av projektet, info om hur projektet byggs, körs och testas.
+Kör `npm run dev` för att starta utvecklingsservern.
 
-## Presentation
+## Testning
 
-Du ska presentera vilka komponenter du har valt att skapa och hur dessa är testade med enhetstester och integrationstester. 
-Presentationen ska innefatta en reflekterande del. 
+Kör `npm test` för att köra testerna. Kan köras utan att utvecklingsservern är igång.
 
-Krav för godkänt:
-1.Webbapplikationen fungerar och använder sig av minst två komponenter.
-2.Komponenterna är enhetstestade och integrationstestade.
-3.Code Coverage är >80%
-4.Git & GitHub har använts
-5.Projektmappen innehåller en README.md fil - (läs ovan för mer info)
-6.Uppgiften lämnas in i tid!
+## Coverage
 
-Krav för väl godkänt:
-1.Alla punkter för godkänt är uppfyllda
-2.Code Coverage är 100%
-3.Dina komponenter testas omfattande
-4.Mockning används på en relevant och nödvändigt sätt
+Kör `npm run coverage` för att se hur stor del av kodbasen som testerna täcker.
+
+Observera att det nu finns en mapp [coverage](./coverage) med en massa filer (en hemsida). Du kan starta [index.html](./coverage/index.html) filen med live server för att öppna hemsidan. Där ser du mer detaljer om vad dina tester faktiskt testar och inte.
